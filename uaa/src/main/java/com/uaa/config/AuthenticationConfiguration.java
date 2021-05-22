@@ -105,6 +105,6 @@ public class AuthenticationConfiguration extends AuthorizationServerConfigurerAd
                 .authorities("p1","p2")
                 .scopes("all")
                 .autoApprove(false)// false 跳转到授权页面
-                .redirectUris("https://baidu.com/");
+                .redirectUris("https://baidu.com");
     }
 }
